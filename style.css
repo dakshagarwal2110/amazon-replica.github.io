@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #232f3e;
+    color: white;
+    position: relative;
+    width: 100vw;
+    height: 55px;
+    position: sticky;
+    z-index: 16;
+    top: 0px;
+}
+header .amazon img{
+    
+    width: 150px;
+    position: absolute;
+    left: 0px;
+}
+header .loc img{
+    border: 2px solid #232f3e;
+    background-color: #232f3e;
+    box-sizing: border-box;
+    width: 157px;
+    position: absolute;
+    left: 160px;
+}
+.loc img:hover{
+    border-color:  white;
+    cursor: pointer;
+}
+.sign img{
+    background-color: #232f3e;
+    box-sizing: border-box;
+    position: absolute;
+    border: 2px solid #232f3e;
+    right: 210px;
+    width: 129px;
+    top: 3px;
+}
+.sign img:hover{
+    border-color:  white;
+    cursor: pointer;
+}
+.ret img{
+    border: 2px solid #232f3e;
+    position: absolute;
+    width: 69px;
+    right: 115px;
+    top: 3px;
+  
+}
+.ret img:hover{
+    border-color:  white;
+    cursor: pointer;
+}
+.cart img{
+    border: 2px solid #232f3e;
+    background-color: #232f3e;
+    box-sizing: border-box;
+    position: absolute;
+    width: 75px;
+    right: 28px;
+    top: 4px;
+}
+.cart img:hover{
+    border-color:  white;
+    cursor: pointer;
+}
+.sec{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background-color: rgb(22, 22, 78);
+    position: relative;
+    width: 100vw;
+    height: 56px;
+}
+.sec img{
+    border: 2px solid rgb(22, 22, 78);;
+    position: absolute;
+    width: 308px;
+    right: 29px;
+    top: 11px;
+}
+.sec img:hover{
+    border-color:  white;
+    cursor: pointer;
+}
+.sec .texts {
+    box-sizing: border-box;
+    font-weight: bold;
+    color: white;   
+    border: 2px solid rgb(22, 22, 78);
+    padding-right: 11px;
+    
+}
+.sec .texts:hover{
+    border-color: white;
+    cursor: pointer;
+    
+}
+.slider{
+    overflow: hidden;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.slider figure{
+    position: relative;
+    width: 600%;
+    left: 0;
+    margin: 0;
+    animation-name: slider;
+    animation-duration: 20s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+
+}
+.slider figure img{
+    width: 16.666%;
+    float: left;
+    height: 311px;
+}
+@keyframes slider{
+    0%{
+        left: 0%;
+    }
+    15%{
+        left: 0%;
+    }
+    20%{
+        left: -100%;
+    }
+    36%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    56%{
+        left: -200%;
+    }
+    60%{
+        left: -300%;
+    }
+    76%{
+        left: -300%;
+    }
+    80%{
+        left: -400%;
+    }
+    96%{
+        left: -400%;
+    }
+    100%{
+        left: -500%;
+
+    }    
+}
+.container{
+    display: flex;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.tex1{
+    max-width: 367px;
+    max-height: 758.633;
+    padding-right: 12px;
+}
+.tex2 p{
+    color: rgb(0, 0, 255);
+    font-size: 96%;
+
+}
+.tex3 p{
+    color: rgb(0, 0, 255);
+    font-size: 96%;
+
+}
+.tex1 p{
+    color: rgb(0, 0, 255);
+    font-size: 96%;
+
+}
+.tex1 img{
+    width: 100%;
+    height: 86%;
+    /* padding-top: 103%; */
+    object-fit: contain;
+}
+.tex2{
+    max-width: 367px;
+    max-height: 758.633;
+    padding-right: 12px;
+}
+.tex2 img{
+    width: 100%;
+    height: 86%;
+    /* padding-top: 22%; */
+    object-fit: contain;
+}
+.tex3{
+    max-width: 367px;
+    max-height: 758.633;
+    padding-right: 12px;
+}
+.tex3 img{
+    width: 100%;
+    height: 86%;
+    /* padding-top: 22%; */
+    object-fit: contain;
+}
+.tex1 p:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+
+}
+.tex2 p:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+
+}
+.tex3 p:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+
+}
+.texas{
+    display: flex;
+    flex-direction: column;
+    max-width: 367px;
+    max-height: 758.633;       
+}
+.texas img{
+    width: 100%;
+    height: 43%;
+    object-fit: contain;
+}
+.texas p{
+    color: rgb(0, 0, 255);
+    font-size: 124%
+}
+.texas p:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+.texas img:hover{
+    cursor: pointer;
+}
+.tex1 img:hover{
+    cursor: pointer;
+}
+.tex2 img:hover{
+    cursor: pointer;
+}
+.tex3 img:hover{
+    cursor: pointer;
+}
+.suits{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 400px;
+    background-color: white;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.suits #sui{
+    display: flex;
+    max-height: 240px;
+}
+#sui img{
+    width: 11.11%;
+    height: 43%px;
+    /* border: 2px solid black; */
+}
+.lang{
+    width: 100%;
+    max-height: 126px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 4px;
+}
+.lang img{
+    width: 100%;
+    height: 43%;
+    object-fit: contain;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 12px 0 12px;
+    height: 423px;
+    background-color: #232F3E;
+    color: white;
+   
+}
+footer .back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 44px;
+    background-color: rgb(47, 47, 92);
+    color: white;
+
+    margin-right: 12px;
+} 
+footer .ohh{
+    display: flex;
+    width: 100%;
+    margin: 0 12px 0 12px;
+    position: relative;
+    top: 12%;
+    font-size: 104%;
+}
+.ohh .con{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    position: absolute;
+    left: 11%;
+    line-height: 32px;   
+    /* padding-right: 19rem; */
+    /* border: 2px solid black; */
+}
+.ohh .con2{
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    position: absolute;
+    left: 24%;
+    line-height: 32px;   
+    /* border: 2px solid black; */
+}
+.ohh .con3{
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+    position: absolute;
+    left: 40%;
+    line-height: 32px;   
+    /* border: 2px solid black; */
+}
+.ohh .con4{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    position: absolute;
+    left: 66%;
+    line-height: 32px;   
+    /* border: 2px solid black; */
+}
+.ohh .con p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+} 
+.ohh .con2 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+} 
+.ohh .con3 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+} 
+.ohh .con4 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+} 
+footer .back:hover{
+    /* text-decoration: underline; */
+    background-color: rgb(47, 47, 125);
+
+} 
+.copy{
+    width: 100%;
+    color: white;
+    background-color: rgb(47, 47, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+}
+
